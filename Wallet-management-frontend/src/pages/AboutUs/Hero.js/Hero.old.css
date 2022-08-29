@@ -1,0 +1,76 @@
+.hero-wrapper {
+  background: linear-gradient(
+      90deg,
+      rgba(22, 27, 85, 0.88),
+      rgba(22, 27, 85, 0.88)
+    ),
+    url("../Images/pngfind.jpg");
+  width: 100%;
+}
+.hero {
+  max-width: 1700px;
+  width: 92%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.hero-content-wrapper {
+  padding-top: 12rem;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+}
+.hero-content {
+  width: 100%;
+  height: 100%;
+}
+.hero-content h2 {
+  max-width: 50rem;
+  color: white;
+  width: 100%;
+  font-weight: 600;
+  font-size: 3.2rem;
+}
+.hero-content p {
+  color: white;
+  font-size: 1.7rem;
+  word-spacing: 2px;
+}
+.hero-content span {
+  color: dodgerblue;
+}
+.hero_img-wrapper {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+}
+.hero_img {
+  max-width: 80rem;
+  width: 90%;
+  height: 100%;
+  position: relative;
+}
+.hero_img .img1 {
+  position: absolute;
+  border-radius: 5rem;
+  top: 5%;
+  left: 100px;
+}
+.hero_img .img2 {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero_img .img3 {
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  right: 0;
+}
+
+.janee {
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  right: -170px;
+}

@@ -1,0 +1,92 @@
+.addAccount {
+  height: 100vh;
+}
+
+.profile {
+  display: flex;
+  justify-content: end;
+  margin: 50px;
+}
+
+.profile-details {
+  padding: 20px;
+  margin: 10px;
+}
+
+.profile-dropdown {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.addAccounts {
+  background-color: var(--primary-blue);
+  margin: 20px;
+  width: 880px;
+  height: 150px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+}
+.nigeria {
+  width: 70px;
+}
+.wwhh {
+  width: 10%;
+}
+.usd {
+  float: right;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.btn-send,
+.btn-convert {
+  background-color: var(--primary-blue);
+  border: 1px solid var(--neutral-blue);
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px;
+}
+
+.btn-send:hover,
+.btn-convert:hover {
+  background-color: var(--neutral-blue);
+  border: 1px solid #fff;
+}
+
+.btn-add {
+  background-color: var(--neutral-blue);
+  padding: 1px;
+  color: #fff;
+  border-radius: 10px;
+  width: 130px;
+  height: 60px;
+}
+
+.btn-add:hover {
+  background-color: var(--primary-blue);
+  border: 1px solid var(--neutral-blue);
+  color: #fff;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: end;
+  background-color: white;
+}
+
+.addBtn {
+  background-color: var(--white);
+  color: rgb(90, 177, 90);
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.addBtn:hover {
+  background-color: var(--primary-blue);
+}

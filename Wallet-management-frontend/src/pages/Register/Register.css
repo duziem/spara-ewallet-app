@@ -1,0 +1,72 @@
+.register {
+  background-color: var(--primary-blue);
+  min-height: 100vh;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PhoneInputCountry {
+  background-color: var(--white);
+  height: 40px;
+  border-radius: 15%;
+  margin-top: 4px;
+  padding: 9px;
+}
+
+.line {
+  display: inline-block;
+}
+
+.password-field {
+  width: 50%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.btn-sm {
+  margin-left: 10px;
+}
+
+.back {
+  margin-right: 15px;
+  margin-top: 1px;
+}
+
+.back:hover {
+  background-color: var(--neutral-blue);
+}
+
+#uidnote,
+#pwdnote,
+#confirmnote {
+  color: white;
+}

@@ -1,0 +1,68 @@
+
+
+:root {
+  --x-bg-blue-900: #080c48;
+}
+
+.container-contact {
+  display: flex;
+  background-color: var(--x-bg-blue-900);
+}
+
+.page_header {
+  background-color: var(--x-bg-blue-900);
+}
+
+
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: var(--x-bg-blue-900);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn1 {
+  background-color: var(--x-bg-blue-900);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.threesection {
+  padding: 10% 10% 5% 10%;
+}
+
+.map-float {
+  list-style: none;
+  background-color: var(--x-bg-blue-900) ;
+}
+
+.map-control-item-icon {
+  width: 36px;
+  height: 36px;
+  border: 2px solid white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-blue-900 {
+  color: var(--x-bg-blue-900)
+}
+

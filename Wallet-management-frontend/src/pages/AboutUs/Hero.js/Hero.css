@@ -1,0 +1,70 @@
+.hero-wrapper {
+  background: linear-gradient(
+      90deg,
+      rgba(22, 27, 85, 0.88),
+      rgba(22, 27, 85, 0.88)
+    ),
+    url("../Images/pngfind.jpg");
+  width: 100%;
+}
+
+.hero {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.hero-content-wrapper {
+  align-self: center;
+  color: #fff;
+  width: 40%;
+}
+
+.hero-header {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.access {
+  color: var(--neutral-blue)
+}
+
+.hero-paragraph {
+  margin-top: 20px;
+}
+
+.hero_img-wrapper {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+}
+
+.janeeImage {
+  border-radius: 50%;
+}
+
+.col-hero{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 6rem;
+}
+
+.row-hero {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.image_1 {
+  margin: 0 3rem 0 0;
+}
+
+.image_3 {
+  margin-left: -150px;
+  margin-right: 50px;
+}

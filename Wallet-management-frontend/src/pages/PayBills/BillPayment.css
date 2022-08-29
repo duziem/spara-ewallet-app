@@ -1,0 +1,16 @@
+.bill {
+  background-color: #0294f4;
+  width: 250px;
+  margin-left: 5px;
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 4px 3px #080c487a;
+}
+
+.container-fluid-bill h2 {
+  font-size: 30px;
+  color: #080c48;
+  font-weight: bold;
+  text-align: center;
+}

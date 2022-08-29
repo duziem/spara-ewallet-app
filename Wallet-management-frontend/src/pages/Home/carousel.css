@@ -1,0 +1,218 @@
+#banner-img {
+  position: absolute;
+  top: 0;
+  right: 100px;
+}
+#tw {
+  transition: transform 550ms !important;
+}
+#tw:hover {
+  transform: scale(1.1) !important;
+}
+
+#th {
+  transition: transform 550ms !important;
+}
+#th:hover {
+  transform: scale(1.1) !important;
+}
+#banner-imgs {
+  position: absolute;
+  top: 14px;
+  right: 300px;
+}
+#carousel-heading {
+  padding-top: 150px;
+}
+.carousel-control-prev {
+  display: none;
+}
+.carousel-control-next {
+  display: none;
+}
+.carousel-indicators {
+  display: none;
+}
+.carousel {
+  margin-bottom: 1000rem;
+}
+
+.dropdown-menu {
+  --bs-dropdown-hover-bg: #080c48;
+  --bs-dropdown-bg: grey;
+}
+dropdown-menu-show {
+  --bs-dropdown-hover-bg: #080c48;
+}
+.blinknav {
+  background-color: inherit;
+  color: #ffff;
+  border: 0;
+  margin-top: 0;
+}
+@media (max-width: 1200px) {
+  #banner-img {
+    position: absolute;
+    top: 20px;
+    right: 0;
+
+    /* max-height: 150vh; */
+  }
+  #banner-imgs {
+    position: absolute;
+    right: 150px;
+    top: -10px;
+    display: none;
+    /* max-height: 150vh; */
+  }
+  @media (max-width: 1000px) {
+    #banner-img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: none;
+
+      /* max-height: 500px; */
+    }
+
+    #banner-imgs {
+      position: absolute;
+      bottom: 0;
+      right: 300px;
+      display: none;
+    }
+    #pee {
+      line-height: normal;
+    }
+  }
+
+  @media (max-width: 800px) {
+    #banner-img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: none;
+    }
+    #banner-imgs {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: none;
+    }
+  }
+}
+
+#h5 {
+  font-weight: bold;
+}
+/* #banner-img */
+@media (max-width: 1000px) {
+  #tw {
+    display: none;
+  }
+  #th {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .gh {
+    padding-left: 1px;
+  }
+}
+
+.btn-primary {
+  background-color: #0294f4;
+}
+
+#rows {
+  flex-wrap: nowrap;
+}
+.cardfoot {
+  border: 4px solid #0294f4;
+  width: 375px;
+  border-radius: 1.2rem;
+  height: 280px;
+  border-bottom: 35px solid #0294f4;
+}
+.card {
+  height: 16rem;
+}
+.colorwhite {
+  color: #ffff;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.colorwhiten {
+  color: #ffff;
+}
+.diff {
+  color: #0294f4;
+}
+
+#To {
+  background-color: #080c48;
+  color: #ffff;
+}
+
+#Top {
+  background-color: #b6dffa;
+}
+
+.endM {
+  background-color: #161b55;
+  padding: 50px 50px 100px;
+}
+
+.yes {
+  position: relative;
+  animation: myfirst 6s linear 2s infinite alternate;
+}
+.no {
+  position: relative;
+  animation: mysecond 6s linear 2s infinite alternate;
+}
+@keyframes myfirst {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 20px;
+    top: -10px;
+  }
+  50% {
+    left: 30px;
+    top: 10px;
+  }
+  75% {
+    left: 10px;
+    top: 20px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes mysecond {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 10px;
+    top: 20px;
+  }
+  50% {
+    left: 30px;
+    top: 10px;
+  }
+  75% {
+    left: 20px;
+    top: -10px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}

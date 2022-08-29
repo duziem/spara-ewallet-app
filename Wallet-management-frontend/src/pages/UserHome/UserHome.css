@@ -1,0 +1,262 @@
+.containerH {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  height: 100%;
+}
+
+.mobileH {
+  width: 1030px;
+  height: 100% !important;
+  align-self: center;
+  display: grid;
+  grid-template-rows: 10% auto;
+  color: #fff;
+}
+.sav {
+  color: var(--tertiary-blue);
+}
+
+.mobileH > div {
+  padding: 1rem 2rem;
+}
+
+.headerH {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filterH {
+  display: flex;
+  padding: 0.5rem;
+  min-width: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #828393;
+  border-radius: 10px;
+}
+
+.calendarH i,
+.selectH i,
+.labelH {
+  color: #828393;
+}
+
+.contentH {
+  background: var(--primary-blue);
+  border-radius: 15px 0px 15px 0px !important;
+  text-align: center;
+}
+.totalH {
+  display: flex;
+  justify-content: center;
+}
+
+.lightB {
+  color: var(--tertiary-blue);
+  font-weight: bold;
+}
+.labelH,
+.cardH .labelH {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.valueH {
+  font-size: 1.8rem;
+}
+.userrName {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.balanceH {
+  background: #1f3a4a;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #02ca8c;
+}
+
+.cardsH {
+  display: grid;
+  overflow-x: auto;
+  overflow-y: hidden;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 0));
+  grid-gap: 10px;
+  align-self: start;
+}
+
+.cardH {
+  min-width: 130px;
+  height: 90px;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.green {
+  background: #00cccc;
+}
+
+.magenta {
+  background: #7359ff;
+}
+
+.gray {
+  background: #7a7faf;
+}
+
+.cardH .balanceH {
+  display: flex;
+  align-self: start;
+  padding: 0.5rem 0;
+  width: 60px;
+  justify-content: space-around;
+  font-size: 0.8rem;
+}
+
+.card .labelH {
+  color: #adffff;
+  font-size: 0.7rem;
+}
+
+.cardH .itemH {
+  align-self: start;
+  padding: 0.5rem 0;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardH .arrow-up {
+  transform: rotateZ(45deg);
+}
+
+.cardH .itemH .valueH {
+  font-size: 1.3rem;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #21233f;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #676767;
+  border-radius: 10px;
+}
+
+.menuH {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2px;
+}
+
+.menuH li {
+  height: 40px;
+  position: relative;
+}
+
+.menuH label,
+.menuH input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+}
+
+.menuH input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.menuH input[type="radio"]:checked + label {
+  border-bottom: 1px solid #2181ff;
+  opacity: 1;
+}
+
+.menuH input[type="radio"]:checked + label i {
+  color: #2181ff;
+}
+
+.menuH label {
+  cursor: pointer;
+  z-index: 90;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menuH label:hover {
+  opacity: 0.7;
+}
+
+.listH {
+  background: #211c3a;
+  display: grid;
+  grid-gap: 5px;
+  padding: 5px 0;
+  height: 180px;
+  overflow-y: auto;
+}
+
+.listH div[class^="itemH"] {
+  display: flex;
+  justify-content: space-between;
+  background: #21223f;
+  padding: 10px 0;
+}
+
+.listH div[class^="section"] {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.listH .icon {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.listH .icon.up {
+  color: #00ff00;
+  transform: rotateZ(30deg);
+}
+
+.listH .icon.down {
+  color: #ff0000;
+  transform: rotateZ(-150deg);
+}
+
+.listH .description {
+  color: #7d7d7d;
+}
+
+.listH .signal {
+  font-weight: bold;
+}
+
+.listH .signal.positive {
+  color: #00ff00;
+}
+
+.listH .signal.negative {
+  color: #ff0000;
+}

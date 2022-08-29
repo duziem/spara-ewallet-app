@@ -1,0 +1,23 @@
+.footer-container-fluid{
+    display: flex;
+    background-color: #080c48;
+    color: white;
+    text-align: center;
+    padding-left: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foot{
+    background-color: #080c48;
+}
+
+.divone{
+    color: white;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}

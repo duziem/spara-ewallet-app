@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'inter';
+}
+.col-lg-2{
+    margin: 10px 10px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 1%;
+}
+.flex{
+  align-items: center;
+  display: flex;
+  justify-content:space-around;
+  word-wrap: break-word;
+  width:100%;
+}
+.form-control{
+  border: 1px solid #0294F4;
+}
+form{
+  font-size:16px;
+}
+.container{
+  margin-top: 1%;
+ 
+}
+#down-form{
+  margin-top: 2%;
+}
+#conditions{
+  background-color:#080C48;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#conditions img{
+  border: 0px solid white;
+ 
+}
+#writeup{
+  max-width: 1000px;
+  margin: auto;
+  font-size: 16px;
+  font-size-adjust: 0.58;
+ }
+  #writeup p{
+  padding-top: 3%;
+  padding-bottom:0.1%;
+}

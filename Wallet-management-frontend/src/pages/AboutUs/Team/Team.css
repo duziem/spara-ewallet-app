@@ -1,0 +1,32 @@
+.team-wrapper{
+    background:rgb(22, 27, 85);
+    margin-top:10rem;
+}
+.team{
+    max-width:1700px;
+    height:100%;
+    width:92%;
+    display:grid;
+    place-items:center;
+}
+
+.team h1{
+    display:grid;
+    color: white;
+    font-size: 2.8rem;
+    place-items:center;
+}
+.team-img img{
+    width:972.748px;
+    height:668.855px;
+}
+.team-mates{
+    display:grid;
+    place-items:center;
+}
+.team-mates p{
+    color:#fff;
+    font-size:2rem;
+    text-align: center;
+    width:45rem;
+}

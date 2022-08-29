@@ -1,0 +1,52 @@
+/* .formclass {
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 5px;
+  width: 1010px;
+}
+::placeholder {
+  text-align: center;
+}
+.inputAccount {
+  width: 260px;
+  height: 33px;
+  margin-bottom: 10px;
+}
+.pcreate {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--primary-blue);
+} */
+
+.formclass {
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 5px;
+  width: 1000px;
+}
+::placeholder {
+  text-align: center;
+}
+.inputAccount {
+  width: 260px;
+  height: 33px;
+  margin-bottom: 6px;
+}
+.pcreate {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--primary-blue);
+}
+.lll {
+  margin-right: 220px !important;
+}
+.sec {
+  margin-right: 170px;
+}
+.kkk {
+  margin-right: 20px;
+}
+.ll {
+  margin-right: 700px;
+}

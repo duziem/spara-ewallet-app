@@ -1,0 +1,28 @@
+.container-faq {
+    width: 850px;
+    
+}
+
+
+
+form.nosubmit {
+    border: none;
+    padding: 0;
+}
+
+.faq-image {
+    align-items: center;
+    
+}
+
+input.nosubmit {
+    width: 810px;
+    border: 1px solid rgb(199, 193, 193);
+    background: transparent url("./search.png") no-repeat 13px center;
+    background-size: 18px;
+    border-radius: 5px;    
+}
+
+.brand_text{
+    color: var(--primary-blue);
+}

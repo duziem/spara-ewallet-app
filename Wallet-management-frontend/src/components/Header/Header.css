@@ -1,0 +1,40 @@
+a {
+  margin-right: 45px !important;
+  margin-top: 5px;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  color: var(--white) !important;
+}
+
+nav {
+  background-color: var(--primary-blue);
+}
+
+.logo {
+  width: 115px;
+}
+
+.btn-signup {
+  width: 102px;
+  height: 46px;
+  border-radius: 5px;
+  background-color: var(--neutral-blue);
+  color: var(--white);
+}
+
+.btn-signup:hover {
+  background-color: var(--white) !important;
+  color: var(--primary-blue) !important;
+}
+
+.navbar-toggler {
+  background-color: var(--white);
+}
+
+#lang {
+  margin-left: 26px;
+  margin-top: 13px;
+  background-color: #080c48;
+  border: none;
+  color: white;
+}

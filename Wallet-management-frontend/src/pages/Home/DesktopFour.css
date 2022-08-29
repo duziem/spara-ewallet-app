@@ -1,0 +1,61 @@
+.imageTransac {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.imageCard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 10%;
+  margin-top: 4%;
+}
+.security-section {
+  background-color: rgba(22, 27, 85, 0.74);
+}
+.debit {
+  margin-top: 9%;
+}
+.securityimage {
+  width: 80%;
+}
+
+/* .container-md {
+  text-align: center;
+}
+h3 {
+  margin-top: 3.76%;
+}
+
+.heading {
+  color: var(--neutral-blue);
+}
+
+.imageOne {
+  margin-top: 10%;
+  margin-bottom: 10.83%;
+}
+.imageTwo {
+  margin-top: 2%;
+  margin-bottom: 10.83%;
+}
+
+.debit {
+  color: var(--neutral-blue);
+}
+
+.display-flex-md {
+  max-width: max-content;
+  background-color: rgba(22, 27, 85, 0.74);
+  color: #fff;
+  margin-bottom: 7.84%;
+}
+
+.imgThree {
+  max-width: 75%;
+  /* margin-left: -6.84%;
+  margin-right: 55.23%;
+  margin-top: 10%;
+  margin-bottom: 10.83%; */

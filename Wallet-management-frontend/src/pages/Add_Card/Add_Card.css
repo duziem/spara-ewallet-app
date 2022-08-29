@@ -1,0 +1,118 @@
+.addCard {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: var(--primary-blue);
+    height: 300px;
+    width: 1000px;
+}
+
+.back {
+    display: flex;
+}
+
+.back-text {
+    font-size: 20px;
+    color: var(--neutral-blue)
+}
+
+.details {
+    font-weight: bold;
+}
+
+.add-card {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card {
+    width: 1000px;
+    margin: 0 auto;
+    height: 900px;
+    border: none;
+}
+
+
+hr{
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid var(--neutral-blue);
+}
+
+.billing-text {
+    font-weight: bold;
+}
+
+.card-billing {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: var(--primary-blue);
+}
+
+input {
+    width: 960px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px;
+    border: 1px solid var(--neutral-blue)
+}
+
+.firstName, .lastName, .expiryDate, .CVV {
+    width: 460px;
+}
+
+.lock-card {
+    width: 300px;
+    margin-left: 30%;
+    margin-top: 80px;
+    background-color: var(--neutral-blue);
+    color: #fff;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+
+.lock-card:hover {
+    background-color: var(--primary-blue);
+}
+
+input[type='text'] {
+    background-image: url(Images/human_icon.png);
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+input[type='number'] {
+    background-image: url(Images/card_icon.png);
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+input[type='date'] {
+    background-image: url(Images/date_icon.png);
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+input[type='tel'] {
+    background-image: url(Images/lock.png);
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+.charges {
+    color: var(--primary-blue);
+    font-weight: bold;
+    margin-right: 100px;
+    margin-top: 20px;
+}
